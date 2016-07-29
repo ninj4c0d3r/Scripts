@@ -1,9 +1,9 @@
 # [nmapwn] - Nmap Auxiliary Pwnable
 
 - Modules
-Scan TCP: Scan Fast, Scan Slow  and  Scan Complete
-Scan UDP
-Scan RECON:
+-Scan TCP: Scan Fast, Scan Slow  and  Scan Complete
+-Scan UDP.
+-Scan RECON:
            TraceRoute                          
            OS Identify                         
            PORT SPECIFICATION                  

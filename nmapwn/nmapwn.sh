@@ -93,6 +93,7 @@ cat <<!
 # 6) - directory scan                      #
 # 7) - ftp-anon scan                       #
 # 8) - dns-fuzz                            #
+# 9) - joomla-3_4_5 vuln                   #
 # b) - Voltar                              #
 #------------------------------------------#
 !
@@ -107,6 +108,7 @@ case $opcao in
     6) sh_dir ;; 
     7) sh_ftp ;;
     8) sh_dns ;;
+    9) sh_joom ;;
     b) sh_back ;;
 
 	*) echo "\"$opcao\" Opção inválida!"; sleep 2; sh_aux ;;  
@@ -242,6 +244,23 @@ clear
    echo -n "please enter your Target IP :"
    read IP
    sudo nmap -sU --script dns-fuzz --script-args timelimit=2h $IP
+   sleep 2
+  echo -n "Deseja voltar para o Menu? (yes):"
+   read yes
+   clear
+   sh_aux
+
+}
+
+sh_joom () {
+clear
+
+   echo "Aguarde..."
+  sleep 3
+  clear
+   echo -n "please enter your Target IP :"
+   read IP
+   sudo nmap -sS -Pn -p 80 --script joomla-3_4_5.nse $IP
    sleep 2
   echo -n "Deseja voltar para o Menu? (yes):"
    read yes

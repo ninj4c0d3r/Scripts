@@ -17,7 +17,7 @@ Scan RECON:
 
        Devices in Network                  
        ip-geolocation                      
-       Wordpress Users enumumerate                
+       Wordpress Users enumerate                
        http-iis-webdav-vuln                
        directory scan                      
        ftp-anon scan                       

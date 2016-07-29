@@ -1,4 +1,4 @@
-# [nmapwn] - Nmap Auxiliary Pwnable
+# [nmapwn] - Nmap Auxiliary Pwnable v0.2
 
 - Modules
 -Scan TCP: Scan Fast, Scan Slow  and  Scan Complete
@@ -18,7 +18,8 @@
        http-iis-webdav-vuln                
        directory scan                      
        ftp-anon scan                       
-       dns-fuzz                            
+       dns-fuzz 
+       joomla-3_4_5 vuln
 
 
 

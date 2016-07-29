@@ -24,9 +24,9 @@
 
 - How to install
 
-chmod +x nmapwn.sh
+chmod +x install.sh
 
-"./nmapwn.sh"
+"./install.sh"
 
 - How to use
 

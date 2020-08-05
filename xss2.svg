@@ -10,14 +10,14 @@
         <lastBuildDate>Wed, 05 Aug 2020 13:30:11 +0000</lastBuildDate>
         <copyright></copyright>
          <item>
-             <title><script>alert("@jonatasfil");</script></title>
+             <title>Pwned by JonatasFil</title>
             <link>https://www.exploit-db.com/exploits/48733</link>
             <description>Stock Management System 1.0 - Authentication Bypass</description>
             <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
             <guid isPermaLink='true'>https://www.exploit-db.com/exploits/48733</guid>
         </item>
          <item>
-            <title>[dos] QlikView 12.50.20000.0 - 'FTP Server Address' Denial of Service (PoC)</title>
+            <title><![CDATA[<script>confirm(document.domain)</script>]]></title>
             <link>https://www.exploit-db.com/exploits/48732</link>
             <description>QlikView 12.50.20000.0 - 'FTP Server Address' Denial of Service (PoC)</description>
             <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
